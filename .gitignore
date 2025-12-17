@@ -7,10 +7,13 @@
 
 # System files
 .smtcmp_json_db
-.smart-env
 .smtcmp_vector_db.tar.gz
-.obsidian
 
 # Backup files
 *.bak
 *.backup
+
+
+
+# Ignore Smart Environment folder
+.smart-env

@@ -1,0 +1,11 @@
+{
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "strictLineBreaks": true,
+  "vimMode": false,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
+}
