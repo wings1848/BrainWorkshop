@@ -1,0 +1,67 @@
+views:
+  - type: table
+    name: 视图
+    order:
+      - file.name
+      - file.basename
+      - file.ext
+      - file.folder
+      - file.tags
+      - file.links
+      - file.backlinks
+      - file.embeds
+      - file.ctime
+      - file.mtime
+    sort: []
+    columnSize:
+      file.name: 176
+      file.folder: 114
+      file.links: 107
+      file.ctime: 159
+      file.mtime: 165
+    rowHeight: medium
+  - type: cards
+    name: 日记
+    filters:
+      and:
+        - file.folder == "日记"
+    order:
+      - file.name
+      - file.folder
+      - file.tags
+    cardSize: 200
+    imageAspectRatio: 1
+    imageFit: contain
+    markers: number
+    separator: " "
+    indentProperties: false
+  - type: cards
+    name: 计划
+    filters:
+      and:
+        - file.folder.startsWith("计划")
+    order:
+      - file.name
+      - file.folder
+      - file.tags
+  - type: cards
+    name: 项目
+    filters:
+      and:
+        - file.folder == "项目"
+  - type: cards
+    name: 附件
+    filters:
+      and:
+        - file.folder == "附件"
+    markers: bullet
+  - type: cards
+    name: 共用资源
+    filters:
+      and:
+        - file.folder == "共用资源"
+  - type: cards
+    name: 收件箱
+    filters:
+      and:
+        - file.folder == "收件箱"

@@ -1,0 +1,16 @@
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# System files
+.smtcmp_json_db
+.smart-env
+.smtcmp_vector_db.tar.gz
+.obsidian
+
+# Backup files
+*.bak
+*.backup
